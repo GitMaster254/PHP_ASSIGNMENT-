@@ -11,7 +11,7 @@
         <h1>Register</h1>
     </header>
     <main>
-        <form action="register.php" method="post">
+        <form action="register.php" method="post" enctype="multipart/form-data">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
             
@@ -23,6 +23,7 @@
             
             <button type="submit">Register</button>
         </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
     </main>
 </body>
 </html>
