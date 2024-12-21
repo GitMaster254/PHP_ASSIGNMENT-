@@ -12,7 +12,7 @@
     </header>
     <main>
         <h2>Login</h2>
-        <form action="login.php" method="post">
+        <form action="login.php" method="post" enctype="multipart/form-data">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
             
@@ -21,6 +21,7 @@
             
             <button type="submit">Login</button>
         </form>
+    <p>Don't have an account? <a href="register.html">Register here</a></p>
     </main>
 </body>
 </html>
