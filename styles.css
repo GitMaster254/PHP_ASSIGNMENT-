@@ -25,6 +25,7 @@ h2 {
     color: #333;
 }
 
+/* Input styling for text, password, and email fields */
 input[type="text"],
 input[type="password"],
 input[type="email"] {
