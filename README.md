@@ -2,3 +2,4 @@
 Silfanus Omollo SIT/B/01-02907/2022
 Richard Ochieng SIT/B/01-02904/2022
 caleb Odhiambo SIT/B/01-02928/2022
+Peter Awori SIT/B/01-02911/2022
