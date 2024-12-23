@@ -60,6 +60,7 @@ a {
     text-decoration: none;
 }
 
+/* Hover effect for links to improve interactivity */
 a:hover {
     text-decoration: underline;
 }
