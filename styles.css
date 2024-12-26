@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    box-sizing: border-box; /* Ensures consistent padding and border sizing */
 }
 
 .container {
@@ -15,6 +16,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
+    max-width: 90%; /* Ensures responsiveness on small screens */
 }
 
 h2 {
@@ -23,6 +25,7 @@ h2 {
     color: #333;
 }
 
+/* Input styling for text, password, and email fields */
 input[type="text"],
 input[type="password"],
 input[type="email"] {
@@ -31,6 +34,7 @@ input[type="email"] {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-sizing: border-box; /* Ensures consistent sizing with padding */
 }
 
 button {
@@ -56,6 +60,7 @@ a {
     text-decoration: none;
 }
 
+/* Hover effect for links to improve interactivity */
 a:hover {
     text-decoration: underline;
 }
