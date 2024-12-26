@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "database";
+$dbname = "database.db";
 
 try {
     // Establish database connection
